@@ -1,0 +1,202 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400px;
+}
+
+h1
+{
+	font-size: 4rem;
+	font-weight: 700px;
+}
+
+h2
+{
+	font-size: 1.625rem;
+}
+
+h3
+{
+	font-size: 1rem;
+}
+
+section
+{
+	background: #000000;
+	border-bottom: 8px solid red;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+section div.content
+{
+	width: 1100px;
+	
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.restore
+{
+	clear: both;
+}
+
+html, body, .cover
+{
+	height: 100%;
+} 
+
+.cover
+{
+	background: url(../IMG/fondo.jpg);
+}
+
+section.header
+{
+	background: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+nav
+{
+	margin: 0 3.5rem;
+	padding-top: 23px; 
+}
+
+div.logo
+{
+	float: left;
+}
+
+div.login
+{
+	float: right;
+	border: solid #000000;
+}
+
+div.login:hover
+{
+	cursor: pointer;
+}
+
+div.login span
+{
+	padding: 7px 17px;
+	background: #E50914;
+	border-radius: 4px;
+}
+
+.present
+{
+	text-align: center;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.present input
+{
+	height: 70px;
+	width: 500px;
+	margin-top: 8px;
+	margin-bottom: 3px; 
+	border-radius: 2px 0px 0px 2px;
+	border: solid 1px #2136AB;
+	padding-left: 11px;
+	color: #4C3C49;
+
+}
+
+.present span
+{
+	background: #e50914;
+	padding: 25.8px; 
+	padding-bottom: 26px;
+	font-weight: 500px;
+	margin-left: -5px;
+	border: solid #000000;
+}
+
+div.present span:hover
+{
+	cursor: pointer;
+	background: red;
+}
+
+div.left
+{
+	float: left;
+}
+
+div.right
+{
+	float: right;
+}
+
+div.floatT
+{
+	width: 59%;
+}
+
+div.floatI
+{
+	width: 39%;
+}
+
+.content img
+{
+	width: 100%;
+	height: auto;
+	border: 0px;
+	position: relative;
+	z-index: 2;
+}
+
+.content h2
+{
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.card
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content p
+{
+	font-size: 25px;
+	font-weight: 200px;
+}
+
+.tv video
+{
+	position: absolute;
+	transform: translate(-373px, 67px);
+	width: 313px;
+	z-index: 1;
+}
+
+.enjoy video
+{
+	position: absolute;
+	transform: translate(-353px, 34px);
+	width: 268px;
+	z-index: 1;
+}
+
+
+
